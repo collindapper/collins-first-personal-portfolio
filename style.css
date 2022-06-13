@@ -1,0 +1,192 @@
+/* Body */
+body {
+  font-family: "Georgia", 'Times New Roman', Times, serif;
+}
+
+.row {
+  height: 100%;
+}
+
+.top-link,
+.top-link-black {
+  text-decoration: none;
+}
+
+.top-link:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.top-link-black:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+/* Heading */
+.heading {
+  background-image: url(./emile-perron-xrVDYZRGdw4-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.headingIcons {
+  width: 60px;
+}
+
+/* Navbar */
+.navbarContainer {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: black;
+} 
+
+
+/* About Me Section */
+.aboutMeImg {
+  background-image: url(./joshua-earle-ICE__bo2Vws-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+/* Projects Section */
+.projectCurrencyConverter {
+  background-image: url(./Currency\ Converter.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectMathGame {
+  background-image: url(./10\ sec\ math\ game.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectToDoList {
+  background-image: url(./API\ To\ Do\ List.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectShoppingList {
+  background-image: url(./Shopping\ List.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectBlackJack {
+  background-image: url(./BlackJack\ Game.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectRockPaperScissors {
+  background-image: url(./Rock\ Paper\ Scissors\ Game.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectPortfolio {
+  background-image: url(./Portfolio\ Screenshot.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectAirbnbNews {
+  background-image: url(./Airbnb\ News\ Clone.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectAirbnbBooking {
+  background-image: url(./Airbnb\ Booking\ Clone.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectNewsweek {
+  background-image: url(./Newsweek\ Clone.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.projectAppleClone {
+  background-image: url(./Apple\ Clone.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+
+
+.projectPortfolio:hover,
+.projectAirbnbNews:hover,
+.projectAirbnbBooking:hover,
+.projectNewsweek:hover,
+.projectAppleClone:hover,
+.projectRockPaperScissors:hover,
+.projectBlackJack:hover,
+.projectShoppingList:hover,
+.projectToDoList:hover,
+.projectMathGame:hover,
+.projectCurrencyConverter:hover {
+  transform: scale(1.05);
+}
+
+.projectLink {
+  text-decoration: none;
+}
+
+.projectLink:hover {
+  text-decoration-color: black;
+}
+
+/* Experience */
+.experienceAltcademy,
+.experienceEagle,
+.experienceCaesars,
+.experienceUmigo,
+.experienceAmericasTire {
+  height: 100%;
+}
+
+/* Certifications */
+.certificationItem {
+  height: 100%;
+}
+
+.certificationLink {
+  text-decoration: none;
+}
+
+.certificationLink:hover {
+  text-decoration: underline;
+}
+
+.javaScriptCertification {
+  text-decoration: none;
+}
+
+.htmlCertification {
+  text-decoration: none;
+}
+
+.certificationBox:hover {
+  transform: scale(1.05);
+}
